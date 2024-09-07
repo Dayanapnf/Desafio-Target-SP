@@ -1,0 +1,33 @@
+Para resolver o problema em duas idas vamos chamar os interruptores de :
+
+- Interruptor A
+- Interruptor B
+- Interruptor C
+
+e as salas de :
+
+- Sala A
+- Sala B
+- Sala C
+
+PRIMEIRA IDA:
+
+1° Passo: Ligue o interruptor A por 5 minutos.
+2° Passo:Desligue o interruptor A.
+3° Passo:Ligue o interruptor B.
+4° Passo:Vá até a sala A.
+5° Passo:Verifique se a lâmpada está acesa:
+    - Se sim, a lâmpada da sala A é ligada pelo interruptor B.
+    -Se não, toque na lâmpada:
+        # Se estiver quente, é ligada pelo interruptor A (que foi aquecido no 1° passo).
+        # Se estiver fria, é ligada pelo interruptor C (que nunca foi ligado).
+6° Passo:Volte para a sala dos interruptores.
+
+SEGUNDA IDA:
+
+7° Passo:Desligue o interruptor B.
+8° Passo:Ligue o interruptor C.
+9° Passo:Vá até a sala B.
+10° Passo:Verifique se a lâmpada está acesa:
+    - Se sim, a lâmpada é ligada pelo interruptor C e a Sala C é ligada pelo interruptor ainda não indetificado.
+    - Se não, a lâmpada é ligada pelo interruptor que ainda não foi identificado (o interruptor A ou B, dependendo da identificação anterior). e a Sala C é ligada pelo Interruptor C.
